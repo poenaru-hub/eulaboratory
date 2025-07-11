@@ -1,0 +1,915 @@
+keyword,title,abstract,link,published,critical_category
+Mental health,"Late Fusion Multi-task Learning for Semiparametric Inference with
+  Nuisance Parameters","In the age of large and heterogeneous datasets, the integration of
+information from diverse sources is essential to improve parameter estimation.
+Multi-task learning offers a powerful approach by enabling simultaneous
+learning across related tasks. In this work, we introduce a late fusion
+framework for multi-task learning with semiparametric models that involve
+infinite-dimensional nuisance parameters, focusing on applications such as
+heterogeneous treatment effect estimation across multiple data sources,
+including electronic health records from different hospitals or clinical trial
+data. Our framework is two-step: first, initial double machine-learning
+estimators are obtained through individual task learning; second, these
+estimators are adaptively aggregated to exploit task similarities while
+remaining robust to task-specific differences. In particular, the framework
+avoids individual level data sharing, preserving privacy. Additionally, we
+propose a novel multi-task learning method for nuisance parameter estimation,
+which further enhances parameter estimation when nuisance parameters exhibit
+similarity across tasks. We establish theoretical guarantees for the method,
+demonstrating faster convergence rates compared to individual task learning
+when tasks share similar parametric components. Extensive simulations and real
+data applications complement the theoretical findings of our work while
+highlight the effectiveness of our framework even in moderate sample sizes.",http://arxiv.org/abs/2507.07941v1,2025-07-10T17:27:04Z,General Tech & Society
+Mental health,"ArteryX: Advancing Brain Artery Feature Extraction with Vessel-Fused
+  Networks and a Robust Validation Framework","Cerebrovascular pathology significantly contributes to cognitive decline and
+neurological disorders, underscoring the need for advanced tools to assess
+vascular integrity. Three-dimensional Time-of-Flight Magnetic Resonance
+Angiography (3D TOF MRA) is widely used to visualize cerebral vasculature,
+however, clinical evaluations generally focus on major arterial abnormalities,
+overlooking quantitative metrics critical for understanding subtle vascular
+changes. Existing methods for extracting structural, geometrical and
+morphological arterial features from MRA - whether manual or automated - face
+challenges including user-dependent variability, steep learning curves, and
+lack of standardized quantitative validations. We propose a novel
+semi-supervised artery evaluation framework, named ArteryX, a MATLAB-based
+toolbox that quantifies vascular features with high accuracy and efficiency,
+achieving processing times ~10-15 minutes per subject at 0.5 mm resolution with
+minimal user intervention. ArteryX employs a vessel-fused network based
+landmarking approach to reliably track and manage tracings, effectively
+addressing the issue of dangling/disconnected vessels. Validation on human
+subjects with cerebral small vessel disease demonstrated its improved
+sensitivity to subtle vascular changes and better performance than an existing
+semi-automated method. Importantly, the ArteryX toolbox enables quantitative
+feature validation by integrating an in-vivo like artery simulation framework
+utilizing vessel-fused graph nodes and predefined ground-truth features for
+specific artery types. Thus, the ArteryX framework holds promise for
+benchmarking feature extraction toolboxes and for seamless integration into
+clinical workflows, enabling early detection of cerebrovascular pathology and
+standardized comparisons across patient cohorts to advance understanding of
+vascular contributions to brain health.",http://arxiv.org/abs/2507.07920v1,2025-07-10T17:00:49Z,AI Alignment & Cognitive Governance
+Mental health,DocCHA: Towards LLM-Augmented Interactive Online diagnosis System,"Despite the impressive capabilities of Large Language Models (LLMs), existing
+Conversational Health Agents (CHAs) remain static and brittle, incapable of
+adaptive multi-turn reasoning, symptom clarification, or transparent
+decision-making. This hinders their real-world applicability in clinical
+diagnosis, where iterative and structured dialogue is essential. We propose
+DocCHA, a confidence-aware, modular framework that emulates clinical reasoning
+by decomposing the diagnostic process into three stages: (1) symptom
+elicitation, (2) history acquisition, and (3) causal graph construction. Each
+module uses interpretable confidence scores to guide adaptive questioning,
+prioritize informative clarifications, and refine weak reasoning links.
+  Evaluated on two real-world Chinese consultation datasets (IMCS21, DX),
+DocCHA consistently outperforms strong prompting-based LLM baselines (GPT-3.5,
+GPT-4o, LLaMA-3), achieving up to 5.18 percent higher diagnostic accuracy and
+over 30 percent improvement in symptom recall, with only modest increase in
+dialogue turns. These results demonstrate the effectiveness of DocCHA in
+enabling structured, transparent, and efficient diagnostic conversations --
+paving the way for trustworthy LLM-powered clinical assistants in multilingual
+and resource-constrained settings.",http://arxiv.org/abs/2507.07870v1,2025-07-10T15:52:04Z,AI Alignment & Cognitive Governance
+Mental health,"DT4PCP: A Digital Twin Framework for Personalized Care Planning Applied
+  to Type 2 Diabetes Management","Digital Twin (DT) technology has emerged as a transformative approach in
+healthcare, but its application in personalized patient care remains limited.
+This paper aims to present a practical implementation of DT in the management
+of chronic diseases. We introduce a general DT framework for personalized care
+planning (DT4PCP), with the core components being a real-time virtual
+representation of a patient's health and emerging predictive models to enable
+adaptive, personalized care. We implemented the DT4PCP framework for managing
+Type 2 Diabetes (DT4PCP-T2D), enabling real-time collection of behavioral data
+from patients with T2D, predicting emergency department (ED) risks, simulating
+the effects of different interventions, and personalizing care strategies to
+reduce ED visits. The DT4PCP-T2D also integrates social determinants of health
+(SDoH) and other contextual data, offering a comprehensive view of the
+patient's health to ensure that care recommendations are tailored to individual
+needs. Through retrospective simulations, we demonstrate that integrating DTs
+in T2D management can lead to significant advancements in personalized
+medicine. This study underscores the potential of DT technology to
+revolutionize chronic disease care.",http://arxiv.org/abs/2507.07809v1,2025-07-10T14:39:32Z,AI & Mental Health / Digital Twin
+Mental health,Measuring AI Alignment with Human Flourishing,"This paper introduces the Flourishing AI Benchmark (FAI Benchmark), a novel
+evaluation framework that assesses AI alignment with human flourishing across
+seven dimensions: Character and Virtue, Close Social Relationships, Happiness
+and Life Satisfaction, Meaning and Purpose, Mental and Physical Health,
+Financial and Material Stability, and Faith and Spirituality. Unlike
+traditional benchmarks that focus on technical capabilities or harm prevention,
+the FAI Benchmark measures AI performance on how effectively models contribute
+to the flourishing of a person across these dimensions. The benchmark evaluates
+how effectively LLM AI systems align with current research models of holistic
+human well-being through a comprehensive methodology that incorporates 1,229
+objective and subjective questions. Using specialized judge Large Language
+Models (LLMs) and cross-dimensional evaluation, the FAI Benchmark employs
+geometric mean scoring to ensure balanced performance across all flourishing
+dimensions. Initial testing of 28 leading language models reveals that while
+some models approach holistic alignment (with the highest-scoring models
+achieving 72/100), none are acceptably aligned across all dimensions,
+particularly in Faith and Spirituality, Character and Virtue, and Meaning and
+Purpose. This research establishes a framework for developing AI systems that
+actively support human flourishing rather than merely avoiding harm, offering
+significant implications for AI development, ethics, and evaluation.",http://arxiv.org/abs/2507.07787v1,2025-07-10T14:09:53Z,AI Alignment & Cognitive Governance
+Capitalism,"Sustainability Transitions and Bending the Curve of Biodiversity
+  Collapse in the Amazon Forest","This paper undertakes an analysis of deforestation in the Amazon area using a
+pathways-based approach to sustainability. We ground the analysis primarily in
+the sustainability transitions literature but also draw a bridge with
+socio-ecological concepts which helps us to understand the nature of
+transitions in this context. The concept of a deforestation system is developed
+by examining the interplay of infrastructure, technologies, narratives, and
+institutions. Drawing on a literature review and an in-depth case study of
+Puerto Maldonado in Madre de Dios, Peru, the paper identifies three pathways
+for addressing deforestation: optimisation, natural capital, and regenerative
+change. We suggest that while the optimisation pathway provides partial
+solutions through mitigation and compensation strategies, it often reinforces
+extractivist logics. The study also underscores the limitations of natural
+capital frameworks, which tend to rely on centralised governance and
+market-based instruments while lacking broader social engagement. In contrast,
+our findings emphasise the potential of regenerative strategies rooted in local
+agency, community-led experimentation, and context-sensitive institutional
+arrangements. The paper contributes to ongoing debates on biodiversity
+governance by illustrating how the spatial and long-term dynamics of
+deforestation interact, and why inclusive, territorially grounded pathways are
+crucial for bending the curve of biodiversity loss.",http://arxiv.org/abs/2507.06663v1,2025-07-09T08:49:17Z,General Tech & Society
+Capitalism,Concept Unlearning by Modeling Key Steps of Diffusion Process,"Text-to-image diffusion models (T2I DMs), represented by Stable Diffusion,
+which generate highly realistic images based on textual input, have been widely
+used. However, their misuse poses serious security risks. While existing
+concept unlearning methods aim to mitigate these risks, they struggle to
+balance unlearning effectiveness with generative retainability.To overcome this
+limitation, we innovatively propose the Key Step Concept Unlearning (KSCU)
+method, which ingeniously capitalizes on the unique stepwise sampling
+characteristic inherent in diffusion models during the image generation
+process. Unlike conventional approaches that treat all denoising steps equally,
+KSCU strategically focuses on pivotal steps with the most influence over the
+final outcome by dividing key steps for different concept unlearning tasks and
+fine-tuning the model only at those steps. This targeted approach reduces the
+number of parameter updates needed for effective unlearning, while maximizing
+the retention of the model's generative capabilities.Through extensive
+benchmark experiments, we demonstrate that KSCU effectively prevents T2I DMs
+from generating undesirable images while better retaining the model's
+generative capabilities. Our code will be released.",http://arxiv.org/abs/2507.06526v2,2025-07-09T03:55:58Z,"Capitalism, Automation & Algorithmic Culture"
+Capitalism,Forex Trading Robot Using Fuzzy Logic,"In this study, we propose a fuzzy system for conducting short-term
+transactions in the forex market. The system is designed to enhance common
+strategies in the forex market using fuzzy logic, thereby improving the
+accuracy of transactions. Traditionally, technical strategies based on
+oscillator indicators have relied on predefined ranges for indicators such as
+Relative Strength Index (RSI), Commodity Channel Indicator (CCI), and
+Stochastic to determine entry points for trades. However, the use of these
+classic indicators has yielded suboptimal results due to the changing nature of
+the market over time. In our proposed approach, instead of employing classical
+indicators, we introduce a fuzzy Mamdani system for each indicator. The results
+obtained from these systems are then combined through voting to design a
+trading robot. Our findings demonstrate a considerable increase in the
+profitability factor compared to three other methods. Additionally, net profit,
+gross profit, and maximum capital reduction are calculated and compared across
+all approaches.",http://arxiv.org/abs/2507.06383v1,2025-07-08T20:33:30Z,General Tech & Society
+Capitalism,Efficient Federated Learning with Timely Update Dissemination,"Federated Learning (FL) has emerged as a compelling methodology for the
+management of distributed data, marked by significant advancements in recent
+years. In this paper, we propose an efficient FL approach that capitalizes on
+additional downlink bandwidth resources to ensure timely update dissemination.
+Initially, we implement this strategy within an asynchronous framework,
+introducing the Asynchronous Staleness-aware Model Update (FedASMU), which
+integrates both server-side and device-side methodologies. On the server side,
+we present an asynchronous FL system model that employs a dynamic model
+aggregation technique, which harmonizes local model updates with the global
+model to enhance both accuracy and efficiency. Concurrently, on the device
+side, we propose an adaptive model adjustment mechanism that integrates the
+latest global model with local models during training to further elevate
+accuracy. Subsequently, we extend this approach to a synchronous context,
+referred to as FedSSMU. Theoretical analyses substantiate the convergence of
+our proposed methodologies. Extensive experiments, encompassing six models and
+five public datasets, demonstrate that FedASMU and FedSSMU significantly
+surpass baseline methods in terms of both accuracy (up to 145.87%) and
+efficiency (up to 97.59%).",http://arxiv.org/abs/2507.06031v1,2025-07-08T14:34:32Z,General Tech & Society
+Capitalism,"LIRA: Inferring Segmentation in Large Multi-modal Models with Local
+  Interleaved Region Assistance","While large multi-modal models (LMMs) demonstrate promising capabilities in
+segmentation and comprehension, they still struggle with two limitations:
+inaccurate segmentation and hallucinated comprehension. These challenges stem
+primarily from constraints in weak visual comprehension and a lack of
+fine-grained perception. To alleviate these limitations, we propose LIRA, a
+framework that capitalizes on the complementary relationship between visual
+comprehension and segmentation via two key components: (1) Semantic-Enhanced
+Feature Extractor (SEFE) improves object attribute inference by fusing semantic
+and pixel-level features, leading to more accurate segmentation; (2)
+Interleaved Local Visual Coupling (ILVC) autoregressively generates local
+descriptions after extracting local features based on segmentation masks,
+offering fine-grained supervision to mitigate hallucinations. Furthermore, we
+find that the precision of object segmentation is positively correlated with
+the latent related semantics of the <seg> token. To quantify this relationship
+and the model's potential semantic inferring ability, we introduce the
+Attributes Evaluation (AttrEval) dataset. Our experiments show that LIRA
+achieves state-of-the-art performance in both segmentation and comprehension
+tasks. Code will be available at https://github.com/echo840/LIRA.",http://arxiv.org/abs/2507.06272v1,2025-07-08T07:46:26Z,General Tech & Society
+Neoliberalism,"The Quantified Body: Identity, Empowerment, and Control in Smart
+  Wearables","In an era where the body is increasingly translated into streams of biometric
+data, smart wearables have become not merely tools of personal health tracking
+but infrastructures of predictive governance. This paper examines how wearable
+technologies reconfigure bodily autonomy by embedding users within
+feedback-driven systems of self-surveillance, data extraction, and algorithmic
+control. Drawing on Deleuze's concept of the control society, Zuboff's theory
+of surveillance capitalism, and Couldry and Mejias's notion of data
+colonialism, I argue that smart wearables shift the discourse of health
+empowerment toward a modality of compliance aligned with neoliberal values of
+productivity, efficiency, and self-discipline. Rather than offering transparent
+consent, these technologies operate within what scholars describe as a
+post-consent regime -- where asymmetrical data relations are normalized through
+seamless design and behavioral nudging. Through interdisciplinary analysis, the
+paper further explores alternative trajectories for wearable design and
+governance, from historical examples of care-centered devices to contemporary
+anti-extractive practices and collective data justice frameworks. Ultimately,
+it calls for a paradigm shift from individual optimization to democratic
+accountability and structural reform in the governance of bodily data.",http://arxiv.org/abs/2506.15991v3,2025-06-19T03:24:17Z,"Capitalism, Automation & Algorithmic Culture"
+Neoliberalism,"The Urban Model Platform: A Public Backbone for Modeling and Simulation
+  in Urban Digital Twins","Urban digital twins are increasingly perceived as a way to pool the growing
+digital resources of cities for the purpose of a more sustainable and
+integrated urban planning. Models and simulations are central to this
+undertaking: They enable ""what if?"" scenarios, create insights and describe
+relationships between the vast data that is being collected. However, the
+process of integrating and subsequently using models in urban digital twins is
+an inherently complex undertaking. It raises questions about how to represent
+urban complexity, how to deal with uncertain assumptions and modeling
+paradigms, and how to capture underlying power relations. Existent approaches
+in the domain largely focus on monolithic and centralized solutions in the
+tradition of neoliberal city-making, oftentimes prohibiting pluralistic and
+open interoperable models. Using a participatory design for participatory
+systems approach together with the City of Hamburg, Germany, we find that an
+open Urban Model Platform can function both as a public technological backbone
+for modeling and simulation in urban digital twins and as a socio-technical
+framework for a collaborative and pluralistic representation of urban
+processes. Such a platform builds on open standards, allows for a decentralized
+integration of models, enables communication between models and supports a
+multi-model approach to representing urban systems.",http://arxiv.org/abs/2506.10964v3,2025-06-12T17:58:10Z,AI & Mental Health / Digital Twin
+Neoliberalism,"More of the Same: Persistent Representational Harms Under Increased
+  Representation","To recognize and mitigate the harms of generative AI systems, it is crucial
+to consider who is represented in the outputs of generative AI systems and how
+people are represented. A critical gap emerges when naively improving who is
+represented, as this does not imply bias mitigation efforts have been applied
+to address how people are represented. We critically examined this by
+investigating gender representation in occupation across state-of-the-art large
+language models. We first show evidence suggesting that over time there have
+been interventions to models altering the resulting gender distribution, and we
+find that women are more represented than men when models are prompted to
+generate biographies or personas. We then demonstrate that representational
+biases persist in how different genders are represented by examining
+statistically significant word differences across genders. This results in a
+proliferation of representational harms, stereotypes, and neoliberalism ideals
+that, despite existing interventions to increase female representation,
+reinforce existing systems of oppression.",http://arxiv.org/abs/2503.00333v1,2025-03-01T03:45:35Z,"Capitalism, Automation & Algorithmic Culture"
+Neoliberalism,"A Panopticon on My Wrist: The Biopower of Big Data Visualization for
+  Wearables","Big data visualization - the visual-spatial display of quantitative
+information culled from huge data sets - is now firmly embedded within the
+everyday experiences of people across the globe, yet scholarship on it remains
+surprisingly small. Within this literature, critical theorizations of big data
+visualizations are rare, as digital positivist perspectives dominate. This
+paper offers a critical, design-informed perspective on big data visualization
+in wearable health tracking ecosystems like FitBit. I argue that such
+visualizations are tools of individualized, neoliberal governance that operate
+largely through experiences of seduction and addiction to facilitate
+participation in the corporate capture and monetization of personal
+information. Exploration of my personal experience of the FitBit ecosystem
+illuminates this argument and emphasizes the capacity for harm to individuals
+using these ecosystems, leading to an exploration of the complex professional
+challenges for user experience designers working on visualizations within the
+ecosystems of wearables.",http://arxiv.org/abs/2412.14176v1,2024-12-03T07:58:52Z,"Capitalism, Automation & Algorithmic Culture"
+Neoliberalism,Other Worlds: Using AI to Revisit Cybersyn and Rethink Economic Futures,"Neoliberalism has become orthodoxy in the present, erasing competing
+paradigms and alternative imaginings. Chile's radical Cybersyn project from
+1971 to 1973 offers a departure point for an alternative path, albeit one that
+was abruptly and violently extinguished. We revisit this moment by fine-tuning
+AI language models on the words and writing of Salvador Allende, the Chilean
+President, and Stafford Beer, the cyberneticist who helped to design the
+project. We conduct interviews with these simulated personas, focusing on how
+their revolutionary ideas might be taken up in the present. We then use an AI
+model to generate five-year-plans from 1973 to the present, simulating an
+alternate history guided by Cybersyn and a progressive agenda. We frame these
+interventions as socialist infrastructuring that cultivates a more expansive
+socialist imagining. This work is not about the viability of planned economies,
+but about the 'inspirability' of exploring other value-systems in the present,
+allowing us to break out of our future-on-rails to envision alternative ways of
+organizing economy and society.",http://arxiv.org/abs/2411.05992v1,2024-11-08T22:06:04Z,"Capitalism, Automation & Algorithmic Culture"
+Stress,"The Potential of Olfactory Stimuli in Stress Reduction through Virtual
+  Reality","Immersive virtual reality (VR) is a promising tool for stress reduction and
+relaxation, traditionally relying on visual and auditory stimuli. This study
+examines the role of olfactory stimuli in enhancing these effects, using a
+randomized within-subject design. Thirty participants aged 18-60 experienced VR
+scenarios simulating a calming seaside environment, with sessions lasting 45
+minutes, in two conditions: with and without a ""Beach"" essential oil scent
+(Yankee Candle) administered via diffuser. Stress and relaxation were assessed
+through self-reported surveys and physiological measures, specifically
+ECG-based heart rate variability (HRV). Results showed no significant
+difference in self-reported relaxation scores (p=0.371) between conditions, but
+HRV analysis revealed a significant stress reduction (p=0.002) with olfactory
+input, with HF increasing 108% from the Math Stress Test to the scented
+relaxation condition, compared to 44% without scent. Additionally, 71.4% of
+participants expressed willingness to use olfactory-enhanced VR for relaxation,
+suggesting practical appeal. These findings indicate that olfactory stimuli may
+enhance relaxation subconsciously, underscoring the importance of multisensory
+integration in VR. Future work could explore personalized scents and long-term
+effects to optimize VR- based interventions for emotional and physical
+well-being.",http://arxiv.org/abs/2507.07911v1,2025-07-10T16:45:10Z,General Tech & Society
+Stress,"Hi-d maps: An interactive visualization technique for multi-dimensional
+  categorical data","In this paper, we present Hi-D maps, a novel method for the visualization of
+multi-dimensional categorical data. Our work addresses the scarcity of
+techniques for visualizing a large number of data-dimensions in an effective
+and space-efficient manner. We have mapped the full data-space onto a 2D
+regular polygonal region. The polygon is cut hierarchically with lines parallel
+to a user-controlled, ordered sequence of sides, each representing a dimension.
+We have used multiple visual cues such as orientation, thickness, color,
+countable glyphs, and text to depict cross-dimensional information. We have
+added interactivity and hierarchical browsing to facilitate flexible
+exploration of the display: small areas can be scrutinized for details. Thus,
+our method is also easily extendable to visualize hierarchical information. Our
+glyph animations add an engaging aesthetic during interaction. Like many
+visualizations, Hi-D maps become less effective when a large number of
+dimensions stresses perceptual limits, but Hi-D maps may add clarity before
+those limits are reached.",http://arxiv.org/abs/2507.07890v1,2025-07-10T16:20:37Z,General Tech & Society
+Stress,"Opting Out of Generative AI: a Behavioral Experiment on the Role of
+  Education in Perplexity AI Avoidance","The rise of conversational AI (CAI), powered by large language models, is
+transforming how individuals access and interact with digital information.
+However, these tools may inadvertently amplify existing digital inequalities.
+This study investigates whether differences in formal education are associated
+with CAI avoidance, leveraging behavioral data from an online experiment (N =
+1,636). Participants were randomly assigned to a control or an
+information-seeking task, either a traditional online search or a CAI
+(Perplexity AI). Task avoidance (operationalized as survey abandonment or
+providing unrelated responses during task assignment) was significantly higher
+in the CAI group (51%) compared to the search (30.9%) and control (16.8%)
+groups, with the highest CAI avoidance among participants with lower education
+levels (~74.4%). Structural equation modeling based on the theoretical
+framework UTAUT2 and LASSO regressions reveal that education is strongly
+associated with CAI avoidance, even after accounting for various cognitive and
+affective predictors of technology adoption. These findings underscore
+education's central role in shaping AI adoption and the role of self-selection
+biases in AI-related research, stressing the need for inclusive design to
+ensure equitable access to emerging technologies.",http://arxiv.org/abs/2507.07881v1,2025-07-10T16:05:11Z,AI Alignment & Cognitive Governance
+Stress,"Membrane-mediated force transduction: Stick-slip motion of vesicles with
+  fluid membranes","How internal forces are transduced into motion through soft, fluid membranes
+remains a fundamental question in the study of active systems. To investigate
+this coupling, we develop a minimal system consisting of a single ferromagnetic
+particle encapsulated within a lipid vesicle with controlled membrane
+composition and phase behavior. An external rotating magnetic field actuates
+the particle, which rotates and translates along the inner membrane leaflet.
+This motion generates local slip in the membrane; near a substrate, the slip
+creates a shear gradient across the lubrication gap that propels the vesicle
+forward. Propulsion is intermittent and strongest when the particle moves near
+the vesicle bottom, where stress transmission is most effective. We find that
+the coupling between internal flows and vesicle motion is highly sensitive to
+membrane elasticity, excess area, and phase coexistence. Local membrane
+deformation and flow dissipate part of the stress, limiting the efficiency of
+force transduction. Additionally, membrane fluctuations and external boundaries
+reduce particle mobility, and in phase-separated membranes, line tension at
+domain boundaries deflects the particle and gradually reorients membrane
+structure. These results demonstrate that lipid membranes not only transmit
+internal stresses but also remodel themselves in response, actively shaping the
+dynamics of force transduction and motion in active systems.",http://arxiv.org/abs/2507.07880v1,2025-07-10T16:04:29Z,General Tech & Society
+Stress,"Homeostatic Adaptation of Optimal Population Codes under Metabolic
+  Stress","Information processing in neural populations is inherently constrained by
+metabolic resource limits and noise properties, with dynamics that are not
+accurately described by existing mathematical models. Recent data, for example,
+shows that neurons in mouse visual cortex go into a ""low power mode"" in which
+they maintain firing rate homeostasis while expending less energy. This
+adaptation leads to increased neuronal noise and tuning curve flattening in
+response to metabolic stress. We have developed a theoretical population coding
+framework that captures this behavior using two novel, surprisingly simple
+constraints: an approximation of firing rate homeostasis and an energy limit
+tied to noise levels via biophysical simulation. A key feature of our
+contribution is an energy budget model directly connecting adenosine
+triphosphate (ATP) use in cells to a fully explainable mathematical framework
+that generalizes existing optimal population codes. Specifically, our
+simulation provides an energy-dependent dispersed Poisson noise model, based on
+the assumption that the cell will follow an optimal decay path to produce the
+least-noisy spike rate that is possible at a given cellular energy budget. Each
+state along this optimal path is associated with properties (resting potential
+and leak conductance) which can be measured in electrophysiology experiments
+and have been shown to change under prolonged caloric deprivation. We
+analytically derive the optimal coding strategy for neurons under varying
+energy budgets and coding goals, and show how our method uniquely captures how
+populations of tuning curves adapt while maintaining homeostasis, as has been
+observed empirically.",http://arxiv.org/abs/2507.07874v1,2025-07-10T15:58:57Z,AI Alignment & Cognitive Governance
+Technostress,"AI-Driven Feedback Loops in Digital Technologies: Psychological Impacts
+  on User Behaviour and Well-Being","The rapid spread of digital technologies has produced data-driven feedback
+loops, wearable devices, social media networks, and mobile applications that
+shape user behavior, motivation, and mental well-being. While these systems
+encourage self-improvement and the development of healthier habits through
+real-time feedback, they also create psychological risks such as technostress,
+addiction, and loss of autonomy. The present study also aims to investigate the
+positive and negative psychological consequences of feedback mechanisms on
+users' behaviour and well-being. Employing a descriptive survey method, the
+study collected data from 200 purposely selected users to assess changes in
+behaviour, motivation, and mental well-being related to health, social, and
+lifestyle applications. Results indicate that while feedback mechanisms
+facilitate goal attainment and social interconnection through streaks and
+badges, among other components, they also enhance anxiety, mental weariness,
+and loss of productivity due to actions that are considered feedback-seeking.
+Furthermore, test subjects reported that their actions are unconsciously shaped
+by app feedback, often at the expense of personal autonomy, while real-time
+feedback minimally influences professional or social interactions. The study
+shows that data-driven feedback loops deliver not only motivational benefits
+but also psychological challenges. To mitigate these risks, users should
+establish boundaries regarding their use of technology to prevent burnout and
+addiction, while developers need to refine feedback mechanisms to reduce
+cognitive load and foster more inclusive participation. Future research should
+focus on designing feedback mechanisms that promote well-being without
+compromising individual freedom or increasing social comparison.",http://arxiv.org/abs/2411.09706v1,2024-10-30T17:11:30Z,Psychotechnologies & Behavioral Capture
+Technostress,"Technostress and Resistance to Change in Maritime Digital
+  Transformation: A Focused Review","The maritime industry is undergoing a significant digital transformation (DT)
+to enhance efficiency and sustainability. This focused review investigates the
+current state of literature on technostress and resistance to change among
+seafarers as they adapt to new digital technologies. By critically reviewing a
+focused selection of peer-reviewed articles, we identify the main themes and
+trends within maritime research on DT. Findings indicate that while mental
+health issues are a predominant concern, this is yet to also be investigated in
+the context of new technology introduction in an industry that is already
+setting seafarers under pressure. Additionally, change management is not
+addressed, and DT is limited to specific functionalities rather than embracing
+broad work practice transformations",http://arxiv.org/abs/2408.17408v1,2024-08-30T16:54:17Z,General Tech & Society
+Technostress,"Spiritual Intelligence's Role in Reducing Technostress through Ethical
+  Work Climates","This study explores the impact of spiritual intelligence (SI) on
+technostress, with a focus on the mediating role of the ethical environment. In
+an era where technological advancements continually reshape our work and
+personal lives, understanding the interplay between human intelligence,
+well-being, and ethics within organizations is increasingly significant.
+Spiritual intelligence, transcending traditional cognitive and emotional
+intelligences, emphasizes understanding personal meaning and values. This paper
+investigates how higher levels of SI enable individuals to integrate technology
+into their lives without undue stress, and how a robust ethical environment
+within organizations supports and amplifies these benefits. Through a
+comprehensive review of literature, empirical research, and detailed analysis,
+the study highlights the protective role of SI against technostress and the
+significant influence of an ethical climate in enhancing this effect. The
+findings offer valuable insights for organizational strategies aimed at
+promoting a harmonious, stress-free workplace environment.",http://arxiv.org/abs/2401.03658v1,2024-01-08T04:05:15Z,General Tech & Society
+Technostress,"Technostress and Job Performance: Understanding the Negative Impacts and
+  Strategic Responses in the Workplace","This study delves into the increasingly pertinent issue of technostress in
+the workplace and its multifaceted impact on job performance. Technostress,
+emerging from the rapid integration of technology in professional settings, is
+identified as a significant stressor affecting employees across various
+industries. The research primarily focuses on the ways in which technostress
+influences job performance, both negatively and positively, depending on the
+context and individual coping mechanisms. Through a blend of qualitative and
+quantitative methodologies, including surveys and in-depth interviews, the
+study examines the experiences of employees from diverse sectors. It highlights
+how technostress manifests in different forms: from anxiety and frustration due
+to constant connectivity to the pressure of adapting to new technologies. The
+paper also explores the dual role of technology as both a facilitator and a
+hindrance in the workplace.
+  Significant findings indicate that technostress adversely impacts job
+performance, leading to decreased productivity, diminished job satisfaction,
+and increased turnover intentions. However, the study also uncovers that
+strategic interventions, such as training programs, supportive leadership, and
+fostering a positive technological culture, can mitigate these negative
+effects. These interventions not only help in managing technostress but also in
+harnessing the potential of technology for enhanced job performance.
+  Furthermore, the research proposes a model outlining the relationship between
+technostress, coping mechanisms, and job performance. This model serves as a
+framework for organizations to understand and address the challenges posed by
+technostress. The study concludes with recommendations for future research,
+particularly in exploring the long-term effects of technostress and the
+efficacy of various coping strategies.",http://arxiv.org/abs/2311.07072v1,2023-11-13T04:38:16Z,General Tech & Society
+Technostress,"Examining the Influence of Job Satisfaction on Individual Innovation and
+  Its Components: Considering the Moderating Role of Technostress","Background: Employee innovation is a crucial aspect of organizations in the
+current era. Therefore, studying the factors influencing individual innovation
+is vital and unavoidable. Undoubtedly, job satisfaction is a significant
+variable in management sciences. Nowadays, all organizations are interconnected
+with technology. Objective: This research explores the relationship between job
+satisfaction and individual innovation, including its components, and the
+moderating role of technostress. Research Method: This study, in terms of
+purpose, is applied, and in terms of data collection method, it is a
+descriptive survey. Data collection tools included the Technostress Inventory
+by Tarafdar and colleagues (2007), Janssen's Individual Innovation
+Questionnaire (2000), and the Job Satisfaction Survey (JSS) by Spector (1994).
+The validity and reliability of these questionnaires were confirmed. The sample
+size for this study was 215, and data analysis was performed using SPSS and
+SMART-PLS software. Findings: Job satisfaction has a significant and positive
+relationship with individual innovation, idea generation, idea promotion, and
+idea implementation. Technostress moderates the relationship between job
+satisfaction and individual innovation, as well as idea generation and idea
+promotion. However, technostress does not play a moderating role in the
+relationship between job satisfaction and idea implementation. Conclusion:
+Based on the obtained results, organizations should take necessary measures to
+increase job satisfaction and reduce technostress among their employees.",http://arxiv.org/abs/2310.13861v1,2023-10-20T23:53:36Z,General Tech & Society
+Epigenetics,Hopfield Networks as Models of Emergent Function in Biology,"Hopfield models, originally developed to study memory retrieval in neural
+networks, have become versatile tools for modeling diverse biological systems
+in which function emerges from collective dynamics. In this review, we provide
+a pedagogical introduction to both classical and modern Hopfield networks from
+a biophysical perspective. After presenting the underlying mathematics, we
+build physical intuition through three complementary interpretations of
+Hopfield dynamics: as noise discrimination, as a geometric construction
+defining a natural coordinate system in pattern space, and as gradient-like
+descent on an energy landscape. We then survey recent applications of Hopfield
+networks a variety of biological setting including cellular differentiation and
+epigenetic memory, molecular self-assembly, and spatial neural representations.",http://arxiv.org/abs/2506.13076v1,2025-06-16T03:48:49Z,General Tech & Society
+Epigenetics,"UniPTMs: The First Unified Multi-type PTM Site Prediction Model via
+  Master-Slave Architecture-Based Multi-Stage Fusion Strategy and Hierarchical
+  Contrastive Loss","As a core mechanism of epigenetic regulation in eukaryotes, protein
+post-translational modifications (PTMs) require precise prediction to decipher
+dynamic life activity networks. To address the limitations of existing deep
+learning models in cross-modal feature fusion, domain generalization, and
+architectural optimization, this study proposes UniPTMs: the first unified
+framework for multi-type PTM prediction. The framework innovatively establishes
+a ""Master-Slave"" dual-path collaborative architecture: The master path
+dynamically integrates high-dimensional representations of protein sequences,
+structures, and evolutionary information through a Bidirectional Gated
+Cross-Attention (BGCA) module, while the slave path optimizes feature
+discrepancies and recalibration between structural and traditional features
+using a Low-Dimensional Fusion Network (LDFN). Complemented by a Multi-scale
+Adaptive convolutional Pyramid (MACP) for capturing local feature patterns and
+a Bidirectional Hierarchical Gated Fusion Network (BHGFN) enabling multi-level
+feature integration across paths, the framework employs a Hierarchical Dynamic
+Weighting Fusion (HDWF) mechanism to intelligently aggregate multimodal
+features. Enhanced by a novel Hierarchical Contrastive loss function for
+feature consistency optimization, UniPTMs demonstrates significant performance
+improvements (3.2%-11.4% MCC and 4.2%-14.3% AP increases) over state-of-the-art
+models across five modification types and transcends the Single-Type Prediction
+Paradigm. To strike a balance between model complexity and performance, we have
+also developed a lightweight variant named UniPTMs-mini.",http://arxiv.org/abs/2506.05443v1,2025-06-05T13:02:43Z,Psychotechnologies & Behavioral Capture
+Epigenetics,ANT: Adaptive Neural Temporal-Aware Text-to-Motion Model,"While diffusion models advance text-to-motion generation, their static
+semantic conditioning ignores temporal-frequency demands: early denoising
+requires structural semantics for motion foundations while later stages need
+localized details for text alignment. This mismatch mirrors biological
+morphogenesis where developmental phases demand distinct genetic programs.
+Inspired by epigenetic regulation governing morphological specialization, we
+propose **(ANT)**, an **A**daptive **N**eural **T**emporal-Aware architecture.
+ANT orchestrates semantic granularity through: **(i) Semantic Temporally
+Adaptive (STA) Module:** Automatically partitions denoising into low-frequency
+structural planning and high-frequency refinement via spectral analysis. **(ii)
+Dynamic Classifier-Free Guidance scheduling (DCFG):** Adaptively adjusts
+conditional to unconditional ratio enhancing efficiency while maintaining
+fidelity. **(iii) Temporal-semantic reweighting:** Quantitatively aligns text
+influence with phase requirements. Extensive experiments show that ANT can be
+applied to various baselines, significantly improving model performance, and
+achieving state-of-the-art semantic alignment on StableMoFusion.",http://arxiv.org/abs/2506.02452v1,2025-06-03T05:17:37Z,AI Alignment & Cognitive Governance
+Epigenetics,A DNA Methylation Classification Model Predicts Organ and Disease Site,"Cell-free DNA (cfDNA) analysis is a powerful, minimally invasive tool for
+monitoring disease progression, treatment response, and early detection. A
+major challenge, however, is accurately determining the tissue of origin,
+especially in complex or heterogeneous disease contexts. To address this, we
+developed a machine learning framework that leverages tissue-specific DNA
+methylation signatures to classify both tissue and disease origin from cfDNA
+data. Our model integrates methylation datasets across diverse epigenomic
+platforms, including Whole Genome Bisulfite Sequencing (WGBS), Illumina
+Infinium Bead Arrays, and Enzymatic Methyl-seq (EM-seq). To account for
+platform variability and data sparsity, we applied imputation strategies and
+harmonized CpG features to enable cross-platform learning. Dimensionality
+reduction revealed clear tissue-specific clustering of methylation profiles. A
+random forest classifier trained on these features achieved consistent
+classification performance (accuracy 0.75-0.8 across test sets and platforms).
+Notably, our model distinguished clinically relevant tissues such as inflamed
+synovium and peripheral blood mononuclear cells (PBMCs) in arthritis patients
+and deconvoluted synthetic cfDNA mixtures mimicking real-world liquid biopsy
+samples. The predicted tissue proportions closely matched the true values,
+demonstrating the model's potential for both classification and quantitative
+inference. These results support the feasibility of using cross-platform
+methylation data and machine learning for scalable, generalizable cfDNA
+diagnostics and lay the groundwork for future integration of disease-specific
+epigenetic features to guide clinical decision-making in precision medicine.",http://arxiv.org/abs/2506.00146v1,2025-05-30T18:38:26Z,General Tech & Society
+Epigenetics,"Intermediate State Formation of Topologically Associated Chromatin
+  Domains using Quantum Annealing","Topologically Associating Chromatic Domains are spatially distinct chromatin
+regions that regulate transcription by segregating active and inactive genomic
+elements. Empirical studies show that their formation correlates with local
+patterns of epigenetic markers, yet the precise mechanisms linking 1D
+epigenetic landscapes to 3D chromatin folding remain unclear. Recent models
+represent chromatin as a spin system, where nucleosomes are treated as
+discrete-state variables coupled by interaction strengths derived from genomic
+and epigenomic data. Classical samplers struggle with these models due to high
+frustration and dense couplings. Here, we present a quantum annealing (QA)
+approach to efficiently sample chromatin states, embedding an epigenetic Ising
+model into the topology of D-Wave quantum processors.",http://arxiv.org/abs/2505.23289v1,2025-05-29T09:40:39Z,General Tech & Society
+Productivity,Cohomology and Extensions of $C_p$-Green Functors of Lie Type,"We develop a theory of $C_p$-Green functors of Lie type, unifying the
+axiomatic framework of Green functors with the structure of Lie algebras under
+the action of a cyclic group $C_p$ of prime order. Extending classical notions
+from representation theory and topology, we define tensor and exterior
+products, introduce an equivariant Chevalley-Eilenberg cohomology, and
+construct cup products that endow the cohomology with a graded Green functor of
+Lie type structure. A key result establishes a correspondence between
+equivalence classes of singular extensions and second cohomology groups,
+generalizing classical Lie algebra extension theory to the equivariant setting.
+This framework enriches the toolkit for studying equivariant algebraic
+structures and paves the way for further applications in deformation theory,
+homotopical algebra, and representation theory.",http://arxiv.org/abs/2507.07962v1,2025-07-10T17:41:56Z,General Tech & Society
+Productivity,"The Trust Fabric: Decentralized Interoperability and Economic
+  Coordination for the Agentic Web","The fragmentation of AI agent ecosystems has created urgent demands for
+interoperability, trust, and economic coordination that current protocols --
+including MCP (Hou et al., 2025), A2A (Habler et al., 2025), ACP (Liu et al.,
+2025), and Cisco's AGP (Edwards, 2025) -- cannot address at scale. We present
+the Nanda Unified Architecture, a decentralized framework built around three
+core innovations: fast DID-based agent discovery through distributed
+registries, semantic agent cards with verifiable credentials and composability
+profiles, and a dynamic trust layer that integrates behavioral attestations
+with policy compliance. The system introduces X42/H42 micropayments for
+economic coordination and MAESTRO, a security framework incorporating
+Synergetics' patented AgentTalk protocol (US Patent 12,244,584 B1) and secure
+containerization. Real-world deployments demonstrate 99.9 percent compliance in
+healthcare applications and substantial monthly transaction volumes with strong
+privacy guarantees. By unifying MIT's trust research with production
+deployments from Cisco and Synergetics, we show how cryptographic proofs and
+policy-as-code transform agents into trust-anchored participants in a
+decentralized economy (Lakshmanan, 2025; Sha, 2025). The result enables a
+globally interoperable Internet of Agents where trust becomes the native
+currency of collaboration across both enterprise and Web3 ecosystems.",http://arxiv.org/abs/2507.07901v1,2025-07-10T16:33:06Z,General Tech & Society
+Productivity,The integro-differential closure of a commutative differential ring,"An integro-differential ring is a differential ring that is closed under an
+integration operation satisfying the fundamental theorem of calculus. Via the
+Newton--Leibniz formula, a generalized evaluation is defined in terms of
+integration and differentiation. The induced evaluation is not necessarily
+multiplicative, which allows to model functions with singularities and leads to
+generalized shuffle relations. In general, not every element of a differential
+ring has an antiderivative in the same ring. Starting from a commutative
+differential ring and a direct decomposition into integrable and non-integrable
+elements, we construct the free integro-differential ring. This
+integro-differential closure contains all nested integrals over elements of the
+original differential ring. We exhibit the relations satisfied by generalized
+evaluations of products of nested integrals. Investigating these relations of
+constants, we characterize in terms of Lyndon words certain evaluations of
+products that determine all others. We also analyze the relation of the free
+integro-differential ring with the shuffle algebra. To preserve integrals in
+the original differential ring for computations in its integro-differential
+closure, we introduce the notion of quasi-integro-differential rings and give
+an adapted construction of the free integro-differential ring. Finally, in a
+given integro-differential ring, we consider the internal integro-differential
+closure of a differential subring and identify it as quotient of the free
+integro-differential ring by certain constants.",http://arxiv.org/abs/2507.07889v1,2025-07-10T16:20:13Z,General Tech & Society
+Productivity,Excess Observables Reveal Nonreciprocity in Integrated Covariance,"Near equilibrium, the symmetric part of the time-integrated steady-state
+covariance, i.e., the time integral of correlation functions, is governed by
+the fluctuation-dissipation theorem, while the antisymmetric part vanishes due
+to Onsager reciprocity. Far from equilibrium, where these principles no longer
+apply, we develop a unified formalism for both symmetric and antisymmetric
+components of integrated covariances. We derive exact, computationally
+tractable expressions for these quantities, valid in arbitrary nonequilibrium
+steady states of Markov jump processes. Both components are expressed in terms
+of excess observables, a notion central to both statistical physics and
+reinforcement learning. Furthermore, we establish thermodynamic upper bounds
+for these covariances in terms of entropy production, dynamical activity, and
+cycle affinities.",http://arxiv.org/abs/2507.07876v1,2025-07-10T15:59:44Z,General Tech & Society
+Productivity,"Preparing spin-squeezed states in Rydberg atom arrays via quantum
+  optimal control","We present a quantum optimal control protocol to generate highly
+spin-squeezed states in Rydberg atom arrays coupled via Ising-type Van der
+Waals interactions. Using gradient-based optimization techniques we construct
+time-dependent pulse sequences that steer an initial product state toward
+highly entangled, spin-squeezed states with predefined magnetization and
+squeezing axes. We focus on the Wineland parameter $\xi_W^2$ to measure spin
+squeezing and our approach achieves near-optimal spin squeezing in
+one-dimensional ring arrays of up to $N=8$ spins, generating states with
+entanglement depths exceeding 6, and significantly outperforming conventional
+quench dynamics for all system sizes studied. Remarkably, optimized pulse
+sequences can be directly scaled to larger arrays without additional
+optimization, achieving a squeezing parameter as low as $\xi_W^2 = 0.227$ in
+systems containing $N=50$ spins. This work demonstrates the potential of
+quantum optimal control methods for preparing highly spin-squeezed states,
+opening pathways to enhanced quantum metrology.",http://arxiv.org/abs/2507.07875v1,2025-07-10T15:59:13Z,General Tech & Society
+Performance,"Impact of Pretraining Word Co-occurrence on Compositional Generalization
+  in Multimodal Models","CLIP and large multimodal models (LMMs) have better accuracy on examples
+involving concepts that are highly represented in the training data. However,
+the role of concept combinations in the training data on compositional
+generalization is largely unclear -- for instance, how does accuracy vary when
+a common object appears in an uncommon pairing with another object? In this
+paper, we investigate how word co-occurrence statistics in the pretraining
+dataset (a proxy for co-occurrence of visual concepts) impacts CLIP/LMM
+performance. To disentangle the effects of word co-occurrence frequencies from
+single-word frequencies, we measure co-occurrence with pointwise mutual
+information (PMI), which normalizes the joint probability of two words
+co-occurring by the probability of co-occurring independently. Using
+synthetically generated images with a variety of concept pairs, we show a
+strong correlation between PMI in the CLIP pretraining data and zero-shot
+accuracy in CLIP models trained on LAION-400M (r=0.97 and 14% accuracy gap
+between images in the top and bottom 5% of PMI values), demonstrating that even
+accuracy on common concepts is affected by the combination of concepts in the
+image. Leveraging this finding, we reproduce this effect in natural images by
+editing them to contain pairs with varying PMI, resulting in a correlation of
+r=0.75. Finally, we demonstrate that this behavior in CLIP transfers to LMMs
+built on top of CLIP (r=0.70 for TextVQA, r=0.62 for VQAv2). Our findings
+highlight the need for algorithms and architectures that improve compositional
+generalization in multimodal models without scaling the training data
+combinatorially. Our code is available at
+https://github.com/helenqu/multimodal-pretraining-pmi.",http://arxiv.org/abs/2507.08000v1,2025-07-10T17:59:59Z,General Tech & Society
+Performance,PyVision: Agentic Vision with Dynamic Tooling,"LLMs are increasingly deployed as agents, systems capable of planning,
+reasoning, and dynamically calling external tools. However, in visual
+reasoning, prior approaches largely remain limited by predefined workflows and
+static toolsets. In this report, we present PyVision, an interactive,
+multi-turn framework that enables MLLMs to autonomously generate, execute, and
+refine Python-based tools tailored to the task at hand, unlocking flexible and
+interpretable problem-solving. We develop a taxonomy of the tools created by
+PyVision and analyze their usage across a diverse set of benchmarks.
+Quantitatively, PyVision achieves consistent performance gains, boosting
+GPT-4.1 by +7.8% on V* and Claude-4.0-Sonnet by +31.1% on VLMsAreBlind-mini.
+These results point to a broader shift: dynamic tooling allows models not just
+to use tools, but to invent them, advancing toward more agentic visual
+reasoning.",http://arxiv.org/abs/2507.07998v1,2025-07-10T17:59:55Z,General Tech & Society
+Performance,"MGVQ: Could VQ-VAE Beat VAE? A Generalizable Tokenizer with Multi-group
+  Quantization","Vector Quantized Variational Autoencoders (VQ-VAEs) are fundamental models
+that compress continuous visual data into discrete tokens. Existing methods
+have tried to improve the quantization strategy for better reconstruction
+quality, however, there still exists a large gap between VQ-VAEs and VAEs. To
+narrow this gap, we propose \NickName, a novel method to augment the
+representation capability of discrete codebooks, facilitating easier
+optimization for codebooks and minimizing information loss, thereby enhancing
+reconstruction quality. Specifically, we propose to retain the latent dimension
+to preserve encoded features and incorporate a set of sub-codebooks for
+quantization. Furthermore, we construct comprehensive zero-shot benchmarks
+featuring resolutions of 512p and 2k to evaluate the reconstruction performance
+of existing methods rigorously. \NickName~achieves the \textbf{state-of-the-art
+performance on both ImageNet and $8$ zero-shot benchmarks} across all VQ-VAEs.
+Notably, compared with SD-VAE, we outperform them on ImageNet significantly,
+with rFID $\textbf{0.49}$ v.s. $\textbf{0.91}$, and achieve superior PSNR on
+all zero-shot benchmarks. These results highlight the superiority of
+\NickName~in reconstruction and pave the way for preserving fidelity in HD
+image processing tasks. Code will be publicly available at
+https://github.com/MKJia/MGVQ.",http://arxiv.org/abs/2507.07997v1,2025-07-10T17:59:54Z,General Tech & Society
+Performance,Single-pass Adaptive Image Tokenization for Minimum Program Search,"According to Algorithmic Information Theory (AIT) -- Intelligent
+representations compress data into the shortest possible program that can
+reconstruct its content, exhibiting low Kolmogorov Complexity (KC). In
+contrast, most visual representation learning systems use fixed-length
+representations for all inputs, ignoring variations in complexity or
+familiarity. Recent adaptive tokenization methods address this by allocating
+variable-length representations but typically require test-time search over
+multiple encodings to find the most predictive one. Inspired by Kolmogorov
+Complexity principles, we propose a single-pass adaptive tokenizer, KARL, which
+predicts the appropriate number of tokens for an image in a single forward
+pass, halting once its approximate KC is reached. The token count serves as a
+proxy for the minimum description length. KARL's training procedure closely
+resembles the Upside-Down Reinforcement Learning paradigm, as it learns to
+conditionally predict token halting based on a desired reconstruction quality.
+KARL matches the performance of recent adaptive tokenizers while operating in a
+single pass. We present scaling laws for KARL, analyzing the role of
+encoder/decoder size, continuous vs. discrete tokenization and more.
+Additionally, we offer a conceptual study drawing an analogy between Adaptive
+Image Tokenization and Algorithmic Information Theory, examining the predicted
+image complexity (KC) across axes such as structure vs. noise and in- vs.
+out-of-distribution familiarity -- revealing alignment with human intuition.",http://arxiv.org/abs/2507.07995v1,2025-07-10T17:59:53Z,AI Alignment & Cognitive Governance
+Performance,Skip a Layer or Loop it? Test-Time Depth Adaptation of Pretrained LLMs,"Can a pretrained neural network adapt its architecture to different inputs
+without any finetuning? Do we need all layers for simple tasks, and are they
+adequate for challenging tasks? We found that the layers of a pretrained large
+language model (LLM) can be manipulated as separate modules to build a better
+and even shallower model customized for each test sample. In particular, each
+layer from the pretrained model can be skipped/pruned or repeated multiple
+times as recurrent neural networks (RNN), and stacked with others in arbitrary
+orders, yielding a chain-of-layers (CoLa) per sample. This compositional space
+greatly expands the scope of existing works on looped/recurrent pretrained
+modules, layer pruning, or early-exit networks. We develop a Monte Carlo Tree
+Search (MCTS) protocol to explore and identify the optimal CoLa for each sample
+from math and commonsense reasoning benchmarks. Compared to a static model of a
+fixed depth, CoLa allows shortcut paths (fast thinking), recurrence of the same
+layer(s) (slow thinking), and combining both, offering more flexible, dynamic
+architectures for different inputs. We conduct an extensive analysis of the
+MCTS-optimized CoLa, which leads to two key findings: (1) For >75% of samples
+with correct predictions by the original LLM, we can find shorter CoLa,
+suggesting a large space for improving inference efficiency; (2) For >60% of
+samples with originally incorrect predictions, we can identify CoLa achieving
+correct predictions, suggesting a large space of performance enhancement. Our
+results highlight the shortcomings of using a fixed architecture of pre-trained
+LLMs for inference on different samples and pave the way to unlock the
+generalization power of test-time depth adaptation.",http://arxiv.org/abs/2507.07996v1,2025-07-10T17:59:53Z,General Tech & Society
+Success,Doodle Your Keypoints: Sketch-Based Few-Shot Keypoint Detection,"Keypoint detection, integral to modern machine perception, faces challenges
+in few-shot learning, particularly when source data from the same distribution
+as the query is unavailable. This gap is addressed by leveraging sketches, a
+popular form of human expression, providing a source-free alternative. However,
+challenges arise in mastering cross-modal embeddings and handling user-specific
+sketch styles. Our proposed framework overcomes these hurdles with a
+prototypical setup, combined with a grid-based locator and prototypical domain
+adaptation. We also demonstrate success in few-shot convergence across novel
+keypoints and classes through extensive experiments.",http://arxiv.org/abs/2507.07994v1,2025-07-10T17:59:49Z,General Tech & Society
+Success,"Multimodal Framework for Explainable Autonomous Driving: Integrating
+  Video, Sensor, and Textual Data for Enhanced Decision-Making and Transparency","Autonomous vehicles (AVs) are poised to redefine transportation by enhancing
+road safety, minimizing human error, and optimizing traffic efficiency. The
+success of AVs depends on their ability to interpret complex, dynamic
+environments through diverse data sources, including video streams, sensor
+measurements, and contextual textual information. However, seamlessly
+integrating these multimodal inputs and ensuring transparency in AI-driven
+decisions remain formidable challenges. This study introduces a novel
+multimodal framework that synergistically combines video, sensor, and textual
+data to predict driving actions while generating human-readable explanations,
+fostering trust and regulatory compliance. By leveraging VideoMAE for
+spatiotemporal video analysis, a custom sensor fusion module for real-time data
+processing, and BERT for textual comprehension, our approach achieves robust
+decision-making and interpretable outputs. Evaluated on the BDD-X (21113
+samples) and nuScenes (1000 scenes) datasets, our model reduces training loss
+from 5.7231 to 0.0187 over five epochs, attaining an action prediction accuracy
+of 92.5% and a BLEU-4 score of 0.75 for explanation quality, outperforming
+state-of-the-art methods. Ablation studies confirm the critical role of each
+modality, while qualitative analyses and human evaluations highlight the
+model's ability to produce contextually rich, user-friendly explanations. These
+advancements underscore the transformative potential of multimodal integration
+and explainability in building safe, transparent, and trustworthy AV systems,
+paving the way for broader societal adoption of autonomous driving
+technologies.",http://arxiv.org/abs/2507.07938v1,2025-07-10T17:21:35Z,General Tech & Society
+Success,"Working with AI: Measuring the Occupational Implications of Generative
+  AI","Given the rapid adoption of generative AI and its potential to impact a wide
+range of tasks, understanding the effects of AI on the economy is one of
+society's most important questions. In this work, we take a step toward that
+goal by analyzing the work activities people do with AI, how successfully and
+broadly those activities are done, and combine that with data on what
+occupations do those activities. We analyze a dataset of 200k anonymized and
+privacy-scrubbed conversations between users and Microsoft Bing Copilot, a
+publicly available generative AI system. We find the most common work
+activities people seek AI assistance for involve gathering information and
+writing, while the most common activities that AI itself is performing are
+providing information and assistance, writing, teaching, and advising.
+Combining these activity classifications with measurements of task success and
+scope of impact, we compute an AI applicability score for each occupation. We
+find the highest AI applicability scores for knowledge work occupation groups
+such as computer and mathematical, and office and administrative support, as
+well as occupations such as sales whose work activities involve providing and
+communicating information. Additionally, we characterize the types of work
+activities performed most successfully, how wage and education correlate with
+AI applicability, and how real-world usage compares to predictions of
+occupational AI impact.",http://arxiv.org/abs/2507.07935v1,2025-07-10T17:16:33Z,General Tech & Society
+Success,The maximum proportion of spreaders in stochastic rumor models,"We examine a general stochastic rumor model characterized by specific
+parameters that govern the interaction rates among individuals. Our model
+includes the \((\alpha, p)\)-probability variants of the well-known
+Daley--Kendall and Maki--Thompson models. In these variants, a spreader
+involved in an interaction attempts to transmit the rumor with probability
+\(p\); if successful, any spreader encountering an individual already informed
+of the rumor has probability \(\alpha\) of becoming a stifler. We prove that
+the maximum proportion of spreaders throughout the process converges almost
+surely, as the population size approaches~\(\infty\). For both the classical
+Daley--Kendall and Maki--Thompson models, the asymptotic proportion of the
+rumor peak is \(1 - \log 2 \approx 0.3069\).",http://arxiv.org/abs/2507.07914v1,2025-07-10T16:48:17Z,General Tech & Society
+Success,"Mitigating Watermark Stealing Attacks in Generative Models via Multi-Key
+  Watermarking","Watermarking offers a promising solution for GenAI providers to establish the
+provenance of their generated content. A watermark is a hidden signal embedded
+in the generated content, whose presence can later be verified using a secret
+watermarking key. A threat to GenAI providers are \emph{watermark stealing}
+attacks, where users forge a watermark into content that was \emph{not}
+generated by the provider's models without access to the secret key, e.g., to
+falsely accuse the provider. Stealing attacks collect \emph{harmless}
+watermarked samples from the provider's model and aim to maximize the expected
+success rate of generating \emph{harmful} watermarked samples. Our work focuses
+on mitigating stealing attacks while treating the underlying watermark as a
+black-box. Our contributions are: (i) Proposing a multi-key extension to
+mitigate stealing attacks that can be applied post-hoc to any watermarking
+method across any modality. (ii) We provide theoretical guarantees and
+demonstrate empirically that our method makes forging substantially less
+effective across multiple datasets, and (iii) we formally define the threat of
+watermark forging as the task of generating harmful, watermarked content and
+model this threat via security games.",http://arxiv.org/abs/2507.07871v1,2025-07-10T15:52:32Z,General Tech & Society
+Social media,Improving the Price of Anarchy via Predictions in Parallel-Link Networks,"We study non-atomic congestion games on parallel-link networks with affine
+cost functions. We investigate the power of machine-learned predictions in the
+design of coordination mechanisms aimed at minimizing the impact of
+selfishness. Our main results demonstrate that enhancing coordination
+mechanisms with a simple advice on the input rate can optimize the social cost
+whenever the advice is accurate (consistency), while only incurring minimal
+losses even when the predictions are arbitrarily inaccurate (bounded
+robustness). Moreover, we provide a full characterization of the consistent
+mechanisms that holds for all monotone cost functions, and show that our
+suggested mechanism is optimal with respect to the robustness. We further
+explore the notion of smoothness within this context: we extend our mechanism
+to achieve error-tolerance, i.e. we provide an approximation guarantee that
+degrades smoothly as a function of the prediction error, up to a predetermined
+threshold, while achieving a bounded robustness.",http://arxiv.org/abs/2507.07915v1,2025-07-10T16:49:33Z,General Tech & Society
+Social media,"Conspiracy to Commit: Information Pollution, Artificial Intelligence,
+  and Real-World Hate Crime","Is demand for conspiracy theories online linked to real-world hate crimes? By
+analyzing online search trends for 36 racially and politically-charged
+conspiracy theories in Michigan (2015-2019), we employ a one-dimensional
+convolutional neural network (1D-CNN) to predict hate crime occurrences
+offline. A subset of theories including the Rothschilds family, Q-Anon, and The
+Great Replacement improves prediction accuracy, with effects emerging two to
+three weeks after fluctuations in searches. However, most theories showed no
+clear connection to offline hate crimes. Aligning with neutralization and
+differential association theories, our findings provide a partial empirical
+link between specific racially charged conspiracy theories and real-world
+violence. Just as well, this study underscores the potential for machine
+learning to be used in identifying harmful online patterns and advancing social
+science research.",http://arxiv.org/abs/2507.07884v1,2025-07-10T16:06:13Z,General Tech & Society
+Social media,"Credit Risk Analysis for SMEs Using Graph Neural Networks in Supply
+  Chain","Small and Medium-sized Enterprises (SMEs) are vital to the modern economy,
+yet their credit risk analysis often struggles with scarce data, especially for
+online lenders lacking direct credit records. This paper introduces a Graph
+Neural Network (GNN)-based framework, leveraging SME interactions from
+transaction and social data to map spatial dependencies and predict loan
+default risks. Tests on real-world datasets from Discover and Ant Credit (23.4M
+nodes for supply chain analysis, 8.6M for default prediction) show the GNN
+surpasses traditional and other GNN baselines, with AUCs of 0.995 and 0.701 for
+supply chain mining and default prediction, respectively. It also helps
+regulators model supply chain disruption impacts on banks, accurately
+forecasting loan defaults from material shortages, and offers Federal Reserve
+stress testers key data for CCAR risk buffers. This approach provides a
+scalable, effective tool for assessing SME credit risk.",http://arxiv.org/abs/2507.07854v1,2025-07-10T15:33:53Z,General Tech & Society
+Social media,"Modulation of PEDOT properties via cobalt ferrite nanoparticles:
+  morphology, conjugation length, doping level, structure, and electrical
+  conductivity","Composite materials based on Poly(3,4-ethylenedioxythiophene) (PEDOT) and
+CoFe$_2$O$_4$ magnetic nanoparticles (NP) were synthesized by chemical
+oxidative polymerization with varying monomer and surfactant (DBSA)
+concentrations, and were compared to PEDOT samples synthesized without NP.
+Electrical conductivity measurements were performed, which revealed that the
+composites are more conductive than the pure PEDOT samples, with this effect
+depending on EDOT and DBSA contents. Characterizations by SEM and TEM
+microscopies, UV-Vis, FTIR and Raman spectroscopies, X-ray diffraction and
+dynamic light scattering were carried out in order to associate the morphology
+and structure of these materials to their electrical conductivity, and to
+explain how EDOT and DBSA concentrations, and also the presence of NP, affects
+those properties. It was found that the NP play a significant role in the
+polymerization of EDOT, influencing the formation and arrangement of polymer
+chains, as well as their conjugation length, oxidation state, and resonant
+structures. These effects are also dependent on the DBSA content. To describe
+the conductivity of the composites, a two-phase model based on general
+effective media theory was introduced. The analysis revealed that, at low
+reactant concentrations, the NP increase the conductivity of the adjacent PEDOT
+by over two orders of magnitude.",http://arxiv.org/abs/2507.07849v1,2025-07-10T15:27:49Z,General Tech & Society
+Social media,"DT4PCP: A Digital Twin Framework for Personalized Care Planning Applied
+  to Type 2 Diabetes Management","Digital Twin (DT) technology has emerged as a transformative approach in
+healthcare, but its application in personalized patient care remains limited.
+This paper aims to present a practical implementation of DT in the management
+of chronic diseases. We introduce a general DT framework for personalized care
+planning (DT4PCP), with the core components being a real-time virtual
+representation of a patient's health and emerging predictive models to enable
+adaptive, personalized care. We implemented the DT4PCP framework for managing
+Type 2 Diabetes (DT4PCP-T2D), enabling real-time collection of behavioral data
+from patients with T2D, predicting emergency department (ED) risks, simulating
+the effects of different interventions, and personalizing care strategies to
+reduce ED visits. The DT4PCP-T2D also integrates social determinants of health
+(SDoH) and other contextual data, offering a comprehensive view of the
+patient's health to ensure that care recommendations are tailored to individual
+needs. Through retrospective simulations, we demonstrate that integrating DTs
+in T2D management can lead to significant advancements in personalized
+medicine. This study underscores the potential of DT technology to
+revolutionize chronic disease care.",http://arxiv.org/abs/2507.07809v1,2025-07-10T14:39:32Z,AI & Mental Health / Digital Twin
